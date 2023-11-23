@@ -1,0 +1,15 @@
+Create database tilines;
+
+use tilines;
+
+CREATE TABLE deseos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    comment TEXT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE deseos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    comment TEXT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
